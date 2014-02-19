@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <title>Ila Dhageyso on Map</title>
+    
+    <meta charset='utf-8' />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta content='' name='description' />
+    <meta content='' name='author' />
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles/bootstrap.spacelab.min.css"/>
+    <link rel="stylesheet" href="styles/bootstrap-responsive.min.css"/>
+    <link rel="stylesheet" href="styles/custom.css"/>
+    <script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-38690468-1']);
+  _gaq.push(['_setDomainName', 'iladhageyso.com']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+    
+      <script type="text/javascript" src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <a href="https://plus.google.com/113202416571922890968?rel=author"></a>
+    <link rel="image_src" href="http://www.iladhageyso.com/wp-content/uploads/2013/08/iladhageyso_screen.png" />
+    <link rel="icon" type="image/ico" href="http://www.iladhageyso.com/wp-content/uploads/2013/07/favicon.ico" />
+  </head>
+  <body>
+    <div class='navbar'>
+      <div class='navbar-inner'>
+        <div class='container'>
+          <a class='brand'>Ila Dhageyso Map Visualization</a>
+          <a class='brand2' href='http://www.iladhageyso.com'> HOME</a>
+        </div>
+      </div>
+    </div>
+
+    <div class='container-fluid'>
+      <div class='row-fluid'>
+        <div class='span4'>
+    <div class='accordion' id='view_accordion'>
+      <div class='accordion-group'>
+        <div class='accordion-heading'>
+          <a class='accordion-toggle' data-parent='#view_accordion' data-toggle='collapse' href='#viewAbout' id='accordionAbout'>
+            Background Info
+          </a>
+        </div>
+        <div class='accordion-body collapse' id='viewAbout'>
+          <div class='accordion-inner'>
+            <p>Ila Dhageyso is a project aimed to broadcast and collect feedback from rural areas using interactive social IVR application. Using Tools provided by <a href="http://research.microsoft.com/en-us/labs/india/" target="_new">Microsoft Research in India</a> and in collaboration with Somaliland largest telecommunication company, <a href="http://www.telesom.net/" target="_new">Telesom</a> and <a href="http://somalilandgov.com/" target="_new">Somaliland Government</a>, was deployed in Novermber 2012 until April 2013. The service was designed to work like social medium where people retrieve information and post responses in interactive fashion. Responses from callers get posted on <a href="www.youtube.com/iladhageyso" target="_new">Youtube</a> and Facebook to connect people with basic phones to popular social sites. The service collected more than 4300 messages from diverse callers. This map interactive map shows  small number of audio responses from citizens in SL. We posted location of callers, English translation, and other meta data of the contents. <i> Works best in Firefox & Safari.</i></p>
+            
+            <p class='pull-right'>
+              <a class='btn btn-primary btn-small' data-toggle='collapse' href='#viewAbout' id='closeAbout'>Ok, thanks!</a>
+              <a class='btn btn-small' href="http://www.iladhageyso.com/english/" target="_blank">Read more</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+          <div class='well'>
+            <h4>
+              Enter Major City in SL
+            </h4>
+            <input class='input-block-level' id='search_address' placeholder="Hargeisa, Burco, Ceerigaabo, Laascaanood, ..." type='text' />
+            <label>
+              within
+              <select class='input-small' id='search_radius'>
+                <option value='1610'>2 miles</option>
+                <option value='3220'>4 mile</option>
+                <option value='4830'>6 mile</option>
+                <option value='6440'>8 miles</option>
+              </select>
+            </label>
+            <input class='btn btn-primary' id='search' type='button' value='Search' />
+            <button class='btn' id='reset'>Reset</button>
+          </div>
+          <div class='well'>
+            <h4>Categories of Feedback </h4>
+            <p>Make Selection to narrow down results</p>
+<ul class='inputs-list unstyled'>
+  <li>
+    <label class='checkbox inline'>
+      <input type='checkbox' id='cbType1' />
+      <span class='filter-box filter-red'></span>
+      New Local Council
+    </label>
+  </li>
+  <li>
+    <label class='checkbox inline'>
+      <input type='checkbox' id='cbType2' />
+      <span class='filter-box filter-blue'></span>
+      England-SL Relationship
+    </label>
+  </li>
+  <li>
+    <label class='checkbox inline'>
+      <input type='checkbox' id='cbType3' />
+      <span class='filter-box filter-green'></span>
+      Complaint to Gov
+    </label>
+  </li>
+  <ul class='inputs-list unstyled'>
+  <li>
+    <label class='checkbox inline'>
+      <input type='checkbox' id='cbType4' />
+      <span class='filter-box filter-itblue'></span>
+      Inflation
+    </label>
+  </li>
+  <li>
+    <label class='checkbox inline'>
+      <input type='checkbox' id='cbType5' />
+      <span class='filter-box filter-orang'></span>
+      Drought
+    </label>
+  </li>
+  
+  <li>
+    <label class='checkbox inline'>
+      <input type='checkbox' id='cbType7' />
+      <span class='filter-box filter-grey'></span>
+      Secession from SL
+    </label>
+  </li>
+  <li>
+    <label class='checkbox inline'>
+      <input type='checkbox' id='cbType12' />
+      <span class='filter-box filter-orang2'></span>
+      Education
+    </label>
+  </li>
+  <li>
+    <label class='checkbox inline'>
+      <input type='checkbox' id='cbType8' />
+      <span class='filter-box filter-pink'></span>
+      Security
+    </label>
+  </li>
+  <li>
+    <label class='checkbox inline'>
+      <input type='checkbox' id='cbType9' />
+      <span class='filter-box filter-yellow'></span>
+      Capitol Renovation
+    </label>
+  </li>
+  <li>
+    <label class='checkbox inline'>
+      <input type='checkbox' id='cbType10' />
+      <span class='filter-box filter-yellow2'></span>
+      Int'l Recognition
+    </label>
+  </li>
+  <li>
+    <label class='checkbox inline'>
+      <input type='checkbox' id='cbType11' />
+      <span class='filter-box filter-purple'></span>
+      Non-Political
+    </label>
+  </li>
+  <li>
+    <label class='checkbox inline'>
+      <input type='checkbox' id='cbType6' />
+      <span class='filter-box filter-purp'></span>
+      About Ila Dhageyso
+    </label>
+  </li>
+</div>
+        
+          
+          <p class='alert alert-info lead' id='result_count'></p>
+        </div>
+        <div class='span8'>
+          <noscript>
+            <div class='alert alert-info'>
+              <h4>Your JavaScript is disabled</h4>
+              <p>Please enable JavaScript to view the map.</p>
+            </div>
+          </noscript>
+          <div id='map_canvas'></div>
+          <p class='pull-right'>
+
+            <small>Built using OpenSource Project by <a href='http://derekeder.com'>Derek Eder.</a><i> (Works best in Firefox & Safari)</i></small>
+        </p>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="source/jquery.js"></script>
+    <script type="text/javascript" src="source/bootstrap.js"></script>
+    <script type="text/javascript" src="source/jquery.address.min.js"></script>
+    <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false&amp;libraries=places"></script>
+    <script type="text/javascript" src="source/jquery.geocomplete.min.js"></script>
+    <script type="text/javascript" src="source/maps_lib.js"></script>
+    <script type='text/javascript'>
+      //<![CDATA[
+        $(window).resize(function () {
+          var h = $(window).height(),
+            offsetTop = 90; // Calculate the top offset
+        
+          $('#map_canvas').css('height', (h - offsetTop));
+        }).resize();
+        
+        $(function() {
+          MapsLib.initialize();
+          $("#search_address").geocomplete();
+
+          $(':checkbox').click(function(){
+            MapsLib.doSearch();
+          });
+
+          $(':radio').click(function(){
+            MapsLib.doSearch();
+          });
+          
+          $('#search_radius').change(function(){
+            MapsLib.doSearch();
+          });
+          
+          $('#search').click(function(){
+            MapsLib.doSearch();
+          });
+          
+          $('#find_me').click(function(){
+            MapsLib.findMe(); 
+            return false;
+          });
+          
+          $('#reset').click(function(){
+            $.address.parameter('address','');
+            MapsLib.initialize(); 
+            return false;
+          });
+          
+          $(":text").keydown(function(e){
+              var key =  e.keyCode ? e.keyCode : e.which;
+              if(key == 13) {
+                  $('#search').click();
+                  return false;
+              }
+          });
+        });
+      //]]>
+    </script>
+  </body>
+</html>
